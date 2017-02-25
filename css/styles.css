@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+}
+
+html {
+        background-color: #E1E1E1;
+    clear: both;
+    display: block;
+}
+.main {
+    background-color: #B02724;
+    box-shadow: 0 3px 3px rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+/*  bottom: 0;*/
+    padding-bottom: 630px;
+    min-width: 710px;
+}
+h1 {
+    font-family: 'Roboto', 'Open Sans';
+    font-weight: 100;
+    line-height: 100%;
+    color: #fff;
+    font-size: 6em;
+    letter-spacing: 8px;
+    margin-top: 120px;
+}
+
+.biscuit {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 300px;
+    max-width: 100%;
+    
+/*Animation*/
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 8000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 8000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 8000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+/*End animation*/
+/*Source: http://stackoverflow.com/questions/14859322/css3-spin-animation*/
+#footer {
+/*    float: left;*/
+    width:100%;
+    height: 200px;
+    margin-top: 911px;
+    min-width: 710px;
+    position:relative;
+}
+
+.links234 {
+    list-style-type: none;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.4em;
+    padding-top: 60px;
+}
+
+.links234 li {
+    display: inline;
+/*
+    padding-left: 50px;
+    padding-right: 50px;
+*/
+    position: relative;
+    border-right: 1px solid black;
+}
+
+.links234 li:last-child { border-right:0px; }
+.links234 a {    
+    text-decoration: none;
+    color: black;
+    padding: 20px 50px;
+}
+.links234 a:hover {text-decoration: line-through;}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95em;
+    color: #696969;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+.dot {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 300px;
+    max-width: 100%;
+}
