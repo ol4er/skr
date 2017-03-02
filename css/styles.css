@@ -40,20 +40,20 @@ h1 {
     
 /*Animation*/
     -webkit-animation-name: spin;
-    -webkit-animation-duration: 8000ms;
+    -webkit-animation-duration: 13000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: spin;
-    -moz-animation-duration: 8000ms;
+    -moz-animation-duration: 13000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: spin;
-    -ms-animation-duration: 8000ms;
+    -ms-animation-duration: 13000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
     animation-name: spin;
-    animation-duration: 8000ms;
+    animation-duration: 13000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     }
@@ -116,6 +116,7 @@ h1 {
 .links234 a:hover {text-decoration: line-through;}
 
 .copyright {
+    
     font-family: 'Open Sans', sans-serif;
     font-size: 0.95em;
     color: #696969;
@@ -123,6 +124,13 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0
+}
+.copyright a {
+    text-decoration: none;
+    color: black;
+}
+.copyright a:hover {
+    color: #B02724;
 }
 .dot {
     margin-left: auto;
